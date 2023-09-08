@@ -1,0 +1,127 @@
+ /* *{
+  background-color:white;
+  /* padding:10px;
+margin:10px; */
+
+/* .body{
+  padding:10px;
+  margin:10px;
+} */
+
+
+.img {
+    height: 330px;
+    width: 328px;
+    position: relative;
+}
+.img1{
+  height: 342px;
+  width: 340px;
+  position: absolute;
+  right: 19px;
+  z-index: 1;
+}
+.headerTxt{
+  display:flex;
+  flex-direction:column;
+  gap:12px;
+}
+.aboutText{
+  width:30%;
+}
+.header{
+  display:flex;
+  flex-direction:row;
+  height:400px;
+  justify-content:space-between;
+  padding:40px;
+ 
+  align-items:center;
+}
+.left{
+  display:flex;
+  flex-direction:column;
+}
+.arrow{
+  height:16px;
+  width:16px;
+}
+.about{
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-around; */
+  background-color:"#1E2A5D";
+  width: 100%;
+
+  padding:40px;
+  gap: 20%;
+  align-items: center;
+  justify-items: flex-end;
+}
+.foodimg{
+  height: 15%;
+  width: 30%;
+}
+.card{
+  border-radius: 6px;
+  border: 1px solid black;
+  height: 365px;
+  width: 257px;
+  background-color: #FFFFFF;
+  padding-top:12px;
+  padding:5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.cardStyle{
+  display:flex;
+  flex-direction: row;
+  padding:40px;
+  height:60%;
+  width:100%;
+  justify-content: space-between;
+}
+.cardImg{
+  height: 210px;
+  width: 190px;
+}
+.type{
+  font-size:14px;
+  color:"#0E2368";
+  font-weight: bold;
+}
+.btn{
+  padding-bottom:10px;
+}
+.footer{
+  display:flex;
+  flex-direction:row;
+
+}
+.navigation{
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  width:100%;
+  align-items:center;
+  padding-top:20px;
+  padding-bottom:20px;
+  gap:10px;
+}
+.headerImg{
+  height:103px;
+  width:88px;
+  position:absolute;
+  top:10px;
+}
+.headingText{
+  color: #0E2368;
+  font-size: 33px;
+  font-weight: bold;
+  width: 37%;
+}
+.middle{
+  color:#E23744;
+}
